@@ -16,12 +16,11 @@
     <div id="contenedor-banner">
       <header>
         <div id="cabecera">
-          <a href="#" id="logo">
+          <a href="index.html" id="logo">
             <img src="/img/logo/avatar_logo.png" alt="LogoAvatar">
           </a>
-
           <nav>
-            <a href="#" id="menu-icon">
+            <a href="index.html" id="menuIcono">
               <i class="fa fa-bars"></i>
             </a>
             <ul>
@@ -31,12 +30,12 @@
                 </a>
               </li>
               <li>
-                <a href="#portfolio">
+                <a href="#portfolio" class="navegacion">
                   Portfolio
                 </a>
               </li>
               <li>
-                <a href="#contacto">
+                <a href="#segundoFooter" class="navegacion">
                   Contacto
                 </a>
               </li>
@@ -52,10 +51,10 @@
         <i class="fa fa-desktop"></i>
       </div>
       <h3>HTML5</h3>
-      <p>Desarrollador HTML 5</p>
+      <p>Estructuración HTML 5</p>
     </section>
 
-    <section class="iconos">
+    <section class="iconos"id="skills2">
       <div class="listaIconos">
         <i class="fa fa-pencil-square-o"></i>
       </div>
@@ -63,7 +62,7 @@
       <p>Maquetación CSS 3</p>
     </section>
 
-    <section class="iconos">
+    <section class="iconos" id="skills3">
       <div class="listaIconos">
         <i class="fa fa-file-code-o"></i>
       </div>
@@ -73,12 +72,14 @@
 
     <div class="separacion"></div>
 
-    <section class="left-col" id="portfolio">
+
+    <!-- PORTFOLIO -->
+    <section class="columnaIzq" id="portfolio">
       <h3>Portfolio</h3>
-      <p>Hola, mi nombre es Alberto Flores Martínez y estoy participando en el Bootcamp Full Stack Developers de GeeksHubs Academy, para poder desarrollarme y profesionalizarme como desarrollador web.</p>
+      <p>Hola mi nombre es Alberto Flores Martínez y estoy participando en el Bootcamp Full Stack Developers de GeeksHubs Academy, para poder desarrollarme y profesionalizarme como desarrollador web.</p>
     </section>
 
-    <section class="sidebar">
+    <section class="columnaDer">
       <img src="img/logo/avatar_logo.png">
     </section>
 
@@ -87,20 +88,18 @@
     <!-- HABILIDADES -->
     <div class="habilidades" id="habilidades">
       <h3>HTML 5</h3>
-      <img src="/img/html5Logo.png" alt="LogoHTML5">
-      
+      <img src="/img/html5Logo.png" alt="LogoHTML5">      
     </div>
     <div class="habilidades">
       <h3>CSS 3</h3>
-      <img src="/img/css3Logo.png" alt="LogoCss3">
-      
+      <img src="/img/css3Logo.png" alt="LogoCss3">      
     </div>
     <div class="habilidades">
       <h3>JS</h3>
-      <img src="/img/javascriptLogo.png" alt="">
-      
+      <img src="/img/javascriptLogo.png" alt="LogoJavascript">    
     </div>
   </div>
+
   <div class="separacion"></div>
 
   <!-- FOOTER -->
@@ -113,32 +112,32 @@
               <a href="index.html">Inicio</a>
             </li>
             <li>
-              <a href="#">Portfolio</a>
+              <a href="#portfolio">Portfolio</a>
             </li>
             <li>
-              <a href="#">Contacto</a>
+              <a href="#segundoFooter">Contacto</a>
             </li>
           </ul>
         </div>
         <div class="icon-text-text">
           <ul class="social">
             <li>
-              <a href="mailto:alberto.flores.1990@gmail.com">
+              <a href="mailto:alberto.flores.1990@gmail.com" target="_blank">
                 <i class="fa fa-envelope-o"></i>
               </a>
             </li>
             <li>
-              <a href="http://facebook.com">
+              <a href="http://facebook.com" target="_blank">
                 <i class="fa fa-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="http://twitter.com">
+              <a href="http://twitter.com" target="_blank">
                 <i class="fa fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="http://youtube.com">
+              <a href="http://youtube.com" target="_blank">
                 <i class="fa fa-youtube"></i>
               </a>
             </li>
@@ -147,9 +146,9 @@
       </div>
     </div>
   </footer>
-  <footer class="second-footer">
+  <footer class="second-footer" id="segundoFooter">
     <p>
-      &copy; <a href="https://github.com/AlFlores10">Alberto Flores</a>
+      &copy; <a href="https://github.com/AlFlores10">AlFlores10</a>
     </p>
   </footer>
   <script src="/js/main.js"></script>

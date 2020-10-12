@@ -1,13 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
   }
   
   body {
     background: #ecf0f1;
     font-family: sans-serif;
-    margin: 0 auto;
+    margin: 0% auto;
   }
   
   p {
@@ -16,7 +16,7 @@
     line-height: 155%;
     padding: 3%;
     text-indent: 2%;
-    text-align: justify;
+    text-align: justify-center;
   }
   
   h3 {
@@ -26,7 +26,7 @@
     color: #524c56;
     text-align: center;
     text-transform: uppercase;
-    padding: 0;
+    padding: 0%;
   }
   
   a {
@@ -46,7 +46,8 @@
     width: auto;
     margin-bottom: -4px;
   }
-  
+
+  /* ///////////////////// CABECERA ////////////////////*/
   #contenedor-principal {
     max-width: 100%;
     margin: 0 auto;
@@ -71,13 +72,13 @@
     width: 50px;
   }
   
-  /* NAV*/
+  /*////////////////////////////// NAV //////////////////////////*/
   nav {
     float: right;
     padding: 25px 20px 0px 0px;
   }
   
-  #menu-icon {
+  #menuIcono {
     display: none;
     font-size: 50px;
   }
@@ -85,6 +86,7 @@
   ul {
     list-style: none;
   }
+
   
   nav ul li {
     font-size: 150%;
@@ -92,18 +94,17 @@
     padding: 10px;
   }
   
-  nav ul li a {
-    color: #6991AC;
-  }
-  
+ 
   .navegacion {
     color: #3F5767;
   }
   
+
   a:hover {
     color: #d3784e;
   }
   
+/*////////////////////////////// ICONOS /////////////////////////*/
   .iconos {
     width: 31.5%;
     float: left;
@@ -130,8 +131,8 @@
     padding: 20%;
   }
   
-
-  .left-col {
+/*//////////////////////// PORTFOLIO ////////////////////////*/
+  .columnaIzq {
     float: left;
     margin: 0 auto;
     width: 60%;
@@ -140,7 +141,7 @@
   }
   
 
-  .sidebar {
+  .columnaDer {
     float: right;
     margin: 0 auto;
     width: 32%;
@@ -205,7 +206,7 @@
   
 
   .footer-nav a:hover {
-    color: #f5f5f5;
+    color: #d3784e;
   }
   
 
@@ -229,7 +230,7 @@
   
 
   .social i:hover {
-    color: #f5f5f5;
+    color: #d3784e;
   }
 
   
@@ -263,7 +264,7 @@
       margin: 15px 0 20px -25px;
     }
   
-    #menu-icon {
+    #menuIcono {
       display: inline-block;
     }
   
@@ -303,12 +304,12 @@
       padding-top: 27%;
     }
   
-    .left-col {
+    .columnaIzq {
       width: 100%;
       padding: 0;
     }
   
-    .sidebar {
+    .columnaDer {
       width: 100%;
     }
   
