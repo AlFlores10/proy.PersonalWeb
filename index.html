@@ -1,18 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>proy.PersonalWeb</title>
-    <!-- LINK BOOTSTRAP -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <title>Alberto Flores WEB</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
-    
 
-<!-- LINK BOOTSTRAP -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- CONTENEDOR PRINCIPAL -->
+  <div id="contenedor-principal">
+
+    <!-- CONTENEDOR BANNER -->
+    <div id="contenedor-banner">
+      <header>
+        <div id="cabecera">
+          <a href="#" id="logo">
+            <img src="/img/logo/avatar_logo.png" alt="LogoAvatar">
+          </a>
+
+          <nav>
+            <a href="#" id="menu-icon">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul>
+              <li>
+                <a href="index.html" class="navegacion">
+                  Inicio
+                </a>
+              </li>
+              <li>
+                <a href="#portfolio">
+                  Portfolio
+                </a>
+              </li>
+              <li>
+                <a href="#contacto">
+                  Contacto
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+
+    <!-- ICONOS -->
+    <section class="iconos" id="skills">
+      <div class="listaIconos">
+        <i class="fa fa-desktop"></i>
+      </div>
+      <h3>HTML5</h3>
+      <p>Desarrollador HTML 5</p>
+    </section>
+
+    <section class="iconos">
+      <div class="listaIconos">
+        <i class="fa fa-pencil-square-o"></i>
+      </div>
+      <h3>CSS 3</h3>
+      <p>Maquetación CSS 3</p>
+    </section>
+
+    <section class="iconos">
+      <div class="listaIconos">
+        <i class="fa fa-file-code-o"></i>
+      </div>
+      <h3>Javascript</h3>
+      <p>Programación Javascript</p>
+    </section>
+
+    <div class="separacion"></div>
+
+    <section class="left-col" id="portfolio">
+      <h3>Portfolio</h3>
+      <p>Hola, mi nombre es Alberto Flores Martínez y estoy participando en el Bootcamp Full Stack Developers de GeeksHubs Academy, para poder desarrollarme y profesionalizarme como desarrollador web.</p>
+    </section>
+
+    <section class="sidebar">
+      <img src="img/logo/avatar_logo.png">
+    </section>
+
+    <div class="separacion"></div>
+
+    <!-- HABILIDADES -->
+    <div class="habilidades" id="habilidades">
+      <h3>HTML 5</h3>
+      <img src="/img/html5Logo.png" alt="LogoHTML5">
+      
+    </div>
+    <div class="habilidades">
+      <h3>CSS 3</h3>
+      <img src="/img/css3Logo.png" alt="LogoCss3">
+      
+    </div>
+    <div class="habilidades">
+      <h3>JS</h3>
+      <img src="/img/javascriptLogo.png" alt="">
+      
+    </div>
+  </div>
+  <div class="separacion"></div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="contenedor-banner">
+      <div class="icon-text">
+        <div class="icon-text-icon">
+          <ul class="footer-nav">
+            <li>
+              <a href="index.html">Inicio</a>
+            </li>
+            <li>
+              <a href="#">Portfolio</a>
+            </li>
+            <li>
+              <a href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div class="icon-text-text">
+          <ul class="social">
+            <li>
+              <a href="mailto:alberto.flores.1990@gmail.com">
+                <i class="fa fa-envelope-o"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://facebook.com">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://twitter.com">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://youtube.com">
+                <i class="fa fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <footer class="second-footer">
+    <p>
+      &copy; <a href="https://github.com/AlFlores10">Alberto Flores</a>
+    </p>
+  </footer>
+  <script src="/js/main.js"></script>
 </body>
 </html>
